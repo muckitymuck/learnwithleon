@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    border: 3px solid black;
+    clear: both;  
+}
+
+section {
+    height: 300px;
+    width: 33.333%;
+    border: 3px solid black;
+    float: left;
+}
+/* @media Rule */
+
+@media screen and (min-width: 668px) and 
+    (max-width: 1024px) {
+    header,footer {
+        background-color: teal;
+    
+    }
+    section {
+        background-color: aqua;
+    
+    }
+}
+ @media screen and (max-width: 667px) and
+    (min-width: 50px)  { 
+    header, footer {
+        background-color: brown;
+    }
+    section{
+        background-color: crimson;
+        width: 100%;
+    }
+} 
+@media screen and (max-width: 667px) and
+    (min-width: 50px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+    header, footer {
+        background-color: brown;
+    }
+    section{
+        background-color: crimson;
+
+    }
+} 
