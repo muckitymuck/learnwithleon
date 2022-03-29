@@ -1,0 +1,133 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+
+}
+nav img{
+  padding-top: 10px;
+}
+nav > a{
+  width: 20%;
+  text-decoration: none;
+  color: white;
+
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+li{
+  border-right: 1px solid #bbb;
+    float: left;
+}
+li a {
+
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+a:hover {
+  background-color: red;
+}
+form {
+  width: 10%;
+  float: right;
+}
+
+.welcome {
+  height: 30px;
+  padding-left: 2%;
+
+  text-align: left;
+  float: left;
+}
+.todaydate {
+  height: 30px;
+  color: grey;
+  text-align: right;
+  margin-bottom: 5%;
+  float: right;
+
+}
+
+.topstories1 {
+  width: 50%;
+
+  padding-left: 2%;
+  clear: both;
+
+  float: left;
+}
+.topstories2{
+  padding-left: 5px;
+}
+
+.topstories1 img {
+  width: 100%;
+}
+.topstories2 img {
+  width: 93%;
+}
+.uscanada, .vial, .prodgym, .folk {
+  height: 190px;
+  width: 25%;
+  float: left;
+}
+
+.topnewssection{
+  padding-left: 2%;
+  clear: both;
+  display: inline-block;
+}
+.topnews{
+
+  width: 30%;
+  float: left;
+}
+.topnews img {
+  width: 90%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+

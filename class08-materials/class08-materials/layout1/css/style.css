@@ -1,0 +1,123 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav, main, aside{
+  float: left;
+  width: 25%;
+}
+main {
+  width: 45%;
+}
+aside {
+  width: 30%;
+  height: 800px;
+}
+section {
+  clear: both;
+  
+  margin: 0px;
+}
+#headline {
+  height: 800px;
+}
+#mainimg {
+  width: 100%;
+}
+
+section > img {
+  float: right;
+  width: 33%;
+}
+#rightbar {
+  float: right;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1, h2, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 12%;
+
+}
+li {
+  padding-top: 10%;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: gray; 
+  font-size: larger;
+}
+  form {
+  padding-left: 12%;
+  color: gray;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.latestnewscard{
+  float: left;
+
+}
+.latestnews {
+  margin-left: 15%;
+  width: 40%;
+  
+
+}
+.latestnewssummary {
+  padding-left: 20px;
+  padding-right: 0px;
+  width: 50%;
+  margin: 0px;
+}
+#rightbar li {
+  padding-top: 0px;
+}
+
+.latestnews span {
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.latestnewsimg {
+  padding: none;
+  float: right;
+
+}
