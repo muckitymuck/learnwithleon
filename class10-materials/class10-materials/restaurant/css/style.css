@@ -1,0 +1,179 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+main {
+    height: 900px;
+    background-image: url('https://isorepublic.com/wp-content/uploads/2018/11/isorepublic-fruit-background-1-1100x733.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 2rem;
+}
+
+
+nav {
+  height: 100px;
+  display: flex;
+}
+nav img {
+  height: 100px;
+}
+nav ul {
+  margin-left: 25%;
+  list-style-type: none;
+  width: 70%;
+}
+nav li {
+
+  padding-right: 5%;
+  float: left;
+}
+.maincontent {
+  width: 50%;
+  padding-top: 10%;
+  padding-left: 10%;
+
+}
+.maincontent ul {
+  margin-left: 25%;
+  list-style-type: none;
+  width: 70%;
+}
+.maincontent li {
+
+  padding-right: 5%;
+  float: left;
+}
+.story {
+  height: 900px;
+  background-image: url('https://img.freepik.com/free-photo/homemade-pie-with-apple-filling-flat-plate-with-kraft-paper-light-background_166116-1908.jpg?w=1380');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-size: 2rem;
+}
+.storycontent {
+  width: 50%;
+  padding: 15% 12% 12% 12%;
+  font-size: 2rem;
+  float: right;
+}
+.storycontent a {
+  text-decoration: none;
+  background-color: darkgoldenrod;
+  color: white;
+
+}
+.menu {
+  text-align: center;
+  font-size: 2rem;
+}
+.menu h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.menu ul {
+  margin-left: 10%;
+  list-style-type: none;
+  width: 100%;
+}
+.menu li {
+
+  padding-right: 5%;
+  float: left;
+}
+.menucards {
+  clear: both;
+
+}
+.menucards img {
+  width: 20%;
+}
+.booktable {
+  margin-top: 10%;
+  font-size: 2rem;
+}
+.booktable > h2, h3 {
+ text-align: center;
+}
+.booktable span {
+  text-align: center;
+}
+.booktableleft {
+  padding: 10%;
+  float: left;
+}
+.booktableright {
+  padding: 10%;
+  float: right;
+}
+.booktableimg {
+  clear: both;
+  padding: 8%;
+  width: 90%;
+}
+.booktablespan {
+  text-align: center;
+}
+.fa-solid {
+  text-align: center;
+}
+.callme {
+  width: 10%;
+  margin-left: 45%;
+  text-align: center;
+}
+.testimonial {
+  margin-left: 25%;
+font-size: 2rem;
+width: 50%;
+text-align: center;
+
+}
+.testimonial h3 {
+  margin-bottom: 0%;
+}
+.testimonial span {
+  margin-top: 0%;
+}
+.testimonial img {
+  width: 10%;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
