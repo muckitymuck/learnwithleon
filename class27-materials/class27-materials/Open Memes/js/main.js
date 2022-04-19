@@ -2,7 +2,7 @@
 document.querySelector('button').addEventListener('click',getData)
 function getData() {
     let input = document.querySelector("input").value
-    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${input}`)
+    fetch(`https://api.imgflip.com/get_memes`)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
             console.log(data.drinks[0])
