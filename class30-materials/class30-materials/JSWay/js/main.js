@@ -92,7 +92,18 @@ class Bank {
     credit(amount){
         this.balance += amount;
     }
+    describe(){
+        return `owner: ${this.name}, balance: ${this.balance}`
+    }
 }
 const Sean = new Bank("Sean")
 const Brad = new Bank("Brad")
 const Georges = new Bank("Georges")
+
+Sean.credit(1000)
+Brad.credit(1000)
+Georges.credit(1000)
+
+console.log(Sean.describe())
+console.log(Brad.describe())
+console.log(Georges.describe())
