@@ -10,9 +10,9 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-
+        localStorage.setItem('books',data.full_title)
         document.querySelector('h2').innerText = data.full_title;
-        document.querySelector('h3').innerText = data.explanation;
+        document.querySelector('h2').innerText += localStorage.getItem('books')
       })
       .catch(err => {
           console.log(`error ${err}`)
