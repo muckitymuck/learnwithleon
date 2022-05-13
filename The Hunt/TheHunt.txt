@@ -8,17 +8,5 @@ Twitter:
 Find 50 Engineers in area you want to work and add to List
 
 
-<<<<<<< HEAD
 canned response for recuiters:
-=======
-LinkedIn Message:
-Hi <connection/recruiter>!
-
-[Your GREETING]
-I’m <name> and I'm interested in applying for the [role] <reason>. I hope to use my <x years> in <industry> in this role.
-<Sentence - data analysis skills>
-<Sentence - problem solving skills>
-<Sentence - exec strategy skills>
-[ASK]
->>>>>>> 1ae6c251c1f285a3c47f0feb9eaae3e4aada59ba
 
